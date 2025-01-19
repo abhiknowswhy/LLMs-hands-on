@@ -3,5 +3,38 @@
     "version": "v1.2",
     "name": "declarative-agent-ai-teacher",
     "description": "Teams declarative agent for AI teacher",
-    "instructions": "$[file('instruction.txt')]"
+    "instructions": "$[file('instruction.txt')]",
+    "conversation_starters": [
+        {
+            "title": "Learn something new",
+            "text": "Teach me something new on "
+        },
+        {
+            "title": "Get latest news",
+            "text": "Search on the internet and get a summary of latest developments on "
+        },
+        {
+            "title": "Help me visualize",
+            "text": "Using GraphicArt, help me visualize a "
+        },
+        {
+            "title": "Help me understand",
+            "text": "Explain the concept of "
+        },
+        {
+            "title": "Improve my Vocabulary",
+            "text": "Give me the meanings, synonyms, antonyms and example usage of the word "
+        }
+    ],
+    "capabilities": [
+        {
+            "name": "GraphicArt"
+        },
+        {
+            "name": "CodeInterpreter"
+        },
+        {
+            "name": "WebSearch"
+        }
+    ]
 }
